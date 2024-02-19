@@ -12,7 +12,7 @@ Lightweight, easy-to-use router designed to handle web requests in PHP applicati
 
 # Quick Start
 
-1 Define Routes:
+**1 Define Routes:**
 ```php
 $routes = [
     'back/login' => 'modules/auth/login.php',
@@ -23,7 +23,7 @@ $routes = [
 ];
 ```
 
-2 Handle Requests:
+**2 Handle Requests:**
 ```php
 $router = new Router($routes);
 $router->handleRequest();
