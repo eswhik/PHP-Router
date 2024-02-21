@@ -60,7 +60,7 @@ class Router
 
 $routes = [
     'back/login' => 'modules/auth/login.php',
-    'back/registro' => 'modules/auth/registro.php',
+    'back/register' => 'modules/auth/register.php',
     'back/add' => 'modules/products/add.php',
     'home/' => 'views/home.php',
     '/' => 'views/index.php',
